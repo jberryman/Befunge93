@@ -1,0 +1,23 @@
+A Befunge Interpreter by jberryman
+--------------------------------
+
+The interpreter works on only Befunge-93 files, not the newer '98 version
+of the language. You can run the interpreter with:
+
+    $> Befunge93 [--quiet] [--allow-oversize] [--seed INT] source.bf
+
+Explanation of options:
+
+    --quiet     
+        Don't print any interpreter warnings or messages
+
+    --allow-oversize
+        Stretch the code area to fit the dimensions of the
+        file. A strict funge-93 interpreter should truncate
+        the file to 80x25 characters.
+
+    --seed
+        Provide your own random seed
+
+Please send me any bug reports, suggestions, etc. 
+    brandon.m.simmons@gmail.com
